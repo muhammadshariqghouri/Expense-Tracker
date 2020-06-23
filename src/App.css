@@ -1,0 +1,60 @@
+/* .background {
+  background-image: url(./src/unnamed.jpg);
+
+} */
+.background {
+    background-image:
+        url("https://www.financedais.com/wp-content/uploads/2018/09/money-bills.jpg");
+}
+
+.App-header {
+  padding: 20px 50px;
+}
+.container{
+  max-width: 400px;
+  min-height: 450px;
+  margin: 0 auto;
+  background-color: burlywood;
+  box-shadow: 0 0 10px gray;
+  margin-top: 50px;
+  padding: 15px 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.expense-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: yellow;
+  box-shadow: 0 0 10px gray;
+}
+
+.trnsaction-list {
+  margin: 0;
+  padding: 0;
+}
+
+.trnsaction-list > li {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px gray;
+  padding: 10px 15px;
+  background-color: white;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+.transaction-form input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px 5px;
+}
+
+.button {
+  box-shadow: 0 0 10px brown;
+  background-color: red;
+  height: auto;
+  border-radius: 4px;
+}
